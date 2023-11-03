@@ -1,27 +1,36 @@
-# WebsocketUi
+# WebSocket Chat Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+This is the frontend UI for a real-time chat application implemented using WebSocket. It provides the user interface for your chat application, allowing users to send and receive real-time messages.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Real-time chat functionality.
+- Sending and receiving messages.
+- User-friendly chat interface.
+- Integration with the WebSocket backend server.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+These instructions will help you set up and run the WebSocket chat frontend for your application.
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js: Make sure you have Node.js installed on your system.
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone this repository to your local machine:
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/kmmramos/websocket-ui.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navigate to the project directory
+3. Install the required dependencies using:
 
-## Further help
+   ```bash
+   git install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. To start the WebSocket server, use the following command:
+
+   ```bash
+   npm start
